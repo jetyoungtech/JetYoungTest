@@ -1,0 +1,8 @@
+/applicationContext.xml
+/bean-autowire.xml
+/beans-properties.xml
+/beans-relation.xml
+/beans-scope.xml
+/beans-spel.xml
+/com/
+/db.properties
