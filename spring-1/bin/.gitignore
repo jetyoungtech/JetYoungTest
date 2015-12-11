@@ -6,3 +6,4 @@
 /beans-spel.xml
 /com/
 /db.properties
+/beans-cycle.xml
