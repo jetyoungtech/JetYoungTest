@@ -9,15 +9,15 @@ public class Main {
 		
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
-		Person person = (Person) ctx.getBean("person6");
+		Person person = (Person) ctx.getBean("person5");
 		
 		System.out.println(person);
 		
-	/*	NewPerson newperson = (NewPerson) ctx.getBean("person4");
+		NewPerson newperson = (NewPerson) ctx.getBean("person4");
 		System.out.println(newperson);
 		
 		DataSource datasource = ctx.getBean(DataSource.class);
-		System.out.println(datasource.getProperties());*/
+		System.out.println(datasource.getProperties());
 	}
 
 }

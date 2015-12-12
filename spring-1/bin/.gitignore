@@ -7,3 +7,5 @@
 /com/
 /db.properties
 /beans-cycle.xml
+/beans-factory.xml
+/beans-beanfactory.xml
