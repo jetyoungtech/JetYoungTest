@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="lib/c3p0-0.9.5.1.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.8-bin.jar"/>
 	<classpathentry kind="lib" path="lib/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.2.3.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
