@@ -1,0 +1,29 @@
+1. Spring aop 
+	1. 需要加入jar包
+	aspectjweaver-1.6.8.jar
+	com.springsource.org.aopalliance-1.0.0.jar
+	com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar
+	spring-aop-4.2.3.RELEASE.jar
+	spring-aspects-4.2.3.RELEASE.jar
+	
+	commons-logging-1.1.1.jar
+	mchange-commons-java-0.2.11.jar
+	mysql-connector-java-5.0.8-bin.jar
+	spring-beans-4.2.3.RELEASE.jar
+	spring-context-4.2.3.RELEASE.jar
+	spring-core-4.2.3.RELEASE.jar
+	spring-expression-4.2.3.RELEASE.jar
+	
+	2. 需要加入aop的命名空间
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	
+	3. 基于注解的方式 
+		1. 在配置文件中加入如下配置
+		<!-- 使Aspect注解起作用 :自动为匹配的类生成代理对象-->
+		<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+		2. 把横切关注点的代码抽象到切面的类中，切面首先是IOC中的一个bean，即加入@Component注解
+		   切面还需要加入@Aspect 注解
+		3. 在类中声明各种通知： 声明一个方法，在方法前加入@Before注解，
+		4. 可以在声明方法中声明一个类型为JoinPoint的 参数，然后就能访问的细节，如方法名和参数
+		
+		
